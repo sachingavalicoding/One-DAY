@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  
+  <body>
+    <!--  Heading for form  -->
+    <center>
+      <form action="php.backend">
+        <h1>HTML Form</h1>
+        <br />
+        <br />
+        <!--    <div>
+        first Name:
+      <input type="text" />
+    </div>
+    <div>
+        last Name:
+      <input type="text" />
+    </div> -->
+        <div>
+          <label for="firstname">First Name:</label>
+          <input class="big" id="frist"  title="First name" type="text" placeholder=" Enter First Name " />
+        </div>
+        <br />
+        <br />
+        <div>
+          <label for="lastname">Last Name:</label>
+          <input class="big"  id ="sec" type="text" placeholder="Enter Last Name " />
+        </div>
+        <br />
+        <br />
+        <div>
+          <label for="email">Email : </label>
+          <input id="email" type="email" placeholder="Enter Your Email " />
+        </div>
+        <br />
+        <br />
+        <div>
+          <label for="password">Password : </label>
+          <input type="password" placeholder="Enter Your Password " />
+        </div>
+        <br />
+        <br />
+        <label for="Address"> Address: </label>
+        <div>
+          <textarea  cols ="30" rows = "10" placeholder=" enter text"></textarea>
+          </textarea>
+        </div>
+        <br />
+        <br />
+        <hr />
+        <div>
+          <label for="select"> Select Your country </label>
+          <select name="" id="" title="country">
+            <option value="India">India</option>
+            <option value="Japan">Japan</option>
+            <option value="">USA</option>
+            <option value="">Pakistan</option>
+            <option value="">Rasia</option>
+            <option value="">Dubai</option>
+          </select>
+        </div>
+        <br />
+        <br />
+        <div>
+          <label for="select"> Select Your city </label>
+          <select name="" id="" title="city">
+            <option value="">Pune</option>
+            <option value="">Mumbai</option>
+            <option value="">Bangalure</option>
+            <option value="">Chennai</option>
+            <option value="">New Delhi</option>
+            <option value="">Kolakata</option>
+          </select>
+        </div>
+        <br />
+        <br />
+        <div>
+          <label for="checkbox">Age is 18+</label>
+          <input type="checkbox" name="" id="" />
+        </div>
+        <div>
+          <label for="input">Male</label>
+          <input type="radio" name="" id="" />
+          <label for="input">Female</label>
+          <input type="radio" name="" id="" />
+        </div>
+        <br />
+        <div>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </div>
+      </form>
+    </center>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+*{
+   
+}
+
+body{
+    border:1px solid red;
+    background-color: rgb(7, 167, 103);
+}
+
+h1{
+    color:red;
+}
+
+input{
+    padding: 10px;
+}
+label{
+    font-size: 20px;
+    margin-right: 100px;
+}
+
+
+#email{
+  margin-left: 20px;
+}
+
+.head{
+    font-size:50px;
+}
+
+.big{
+    padding:40px;
+}
+
+#sec{
+    padding: 60px;
+}
