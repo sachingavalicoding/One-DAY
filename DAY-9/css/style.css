@@ -1,0 +1,270 @@
+/*  Reset Css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Ubuntu-Regular;
+}
+
+/* header  */
+.container {
+  min-width: 80%;
+  margin: auto;
+}
+
+@media (min-width: 700px) {
+  .container {
+    max-width: 652px;
+  }
+}
+@media (min-width: 800px) {
+  .container {
+    max-width: 752px;
+  }
+}
+@media (min-width: 900px) {
+  .container {
+    max-width: 852px;
+  }
+}
+@media (min-width: 1000px) {
+  .container {
+    max-width: 952px;
+  }
+}
+@media (min-width: 1100px) {
+  .container {
+    max-width: 1052px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1152px;
+  }
+}
+
+/*  top bar  */
+.topbar {
+  width: 100%;
+  background-color: var(--dark);
+  padding: 0.5rem;
+}
+.topbar .left-icons {
+  margin-left: 18.2rem;
+}
+.topbar .left-icons img {
+  margin-right: 2.2rem;
+}
+.topbar .right-login {
+  margin-right: 14.2rem;
+}
+
+.topbar .right-login > div {
+  margin-left: 1.5rem;
+}
+
+.topbar .right-login > div img {
+  margin-right: 0.4rem;
+}
+.topbar .right-login > div a {
+  font-family: Ubuntu-light;
+  color: var(--white);
+}
+.topbar .right-login > div span {
+  font-family: Ubuntu-light;
+  color: var(--white);
+}
+
+/*  Header  */
+
+/*  title bar  */
+
+.titlebar .calls {
+  margin: 0rem 1.6rem;
+}
+.titlebar .calls > div {
+  margin: 0rem 0.9rem;
+}
+.titlebar .calls > div > h4,
+.titlebar .time > div > h4 {
+  font-family: Ubuntu-Boldltalic;
+  letter-spacing: 0.1rem;
+}
+.titlebar .calls > div > h5,
+.titlebar .time > div > h5 {
+  font-family: Ubuntu-light;
+  letter-spacing: 0.1rem;
+}
+
+.titlebar .logo {
+  margin: 0 1.6rem;
+}
+
+.titlebar .time {
+  margin: 0 1.6rem;
+}
+.titlebar .time > div {
+  margin: 0rem 0.9rem;
+}
+
+/*  navbar  */
+
+.navbar nav a {
+  padding: 0.6rem 2.6rem;
+  border: 1px solid transparent;
+  color: var(--dark);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-family: Ubuntu-Regular;
+  letter-spacing: 0.05rem;
+}
+.navbar nav a.active {
+  color: var(--white);
+  border: 1px solid var(--white);
+  background-color: var(--primary);
+}
+
+.navbar nav a:hover {
+  color: var(--white);
+  border: 1px solid var(--white);
+  background-color: var(--primary);
+}
+
+/*  main */
+
+main {
+  height: 45vh;
+  width: 100vw;
+
+  background-image: url(../images/hero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.main-page .logo-2 {
+  margin: 1.2rem 0.3rem;
+}
+
+.main-page .logo-2 > span {
+  margin: 1rem 0.6rem;
+  font-size: 1.4rem;
+  font-family: Ubuntu-ltalic;
+}
+.main-page .logo-2 > img {
+  margin-left: 0.4rem;
+}
+
+.main-page .title {
+  margin-bottom: 1rem;
+}
+.main-page .title > h1 {
+  font-family: Ubuntu-Bold;
+  letter-spacing: 0.08rem;
+}
+.main-page .title > h1 > span {
+  color: var(--primary);
+}
+
+.main-page .para {
+  margin-bottom: 0.7rem;
+}
+.main-page .para p {
+  font: size 1.3rem;
+  font-family: Ubuntu-Regular;
+  text-align-last: left;
+}
+
+.main-page .straw-img {
+  position: absolute;
+  content: '';
+  top: 7px;
+  right: 140px;
+}
+
+/*  Products section  */
+/*  cards  */
+
+.section {
+  width: 100vw;
+  height: 100%;
+  background-color: var(--secoundary);
+}
+.slide {
+  margin: 7rem 0;
+}
+.slide .slide-box {
+  width: 400px;
+  height: 430px;
+  margin: 0rem 4rem;
+  background-color: azure;
+  border-radius: 12px;
+}
+.slide .slide-box .box-img {
+  background-color: var(--pink);
+  border-radius: 12px;
+}
+.slide .slide-box .box-img > img {
+  width: 90%;
+  height: 25%;
+  padding: 1.4rem;
+  border-radius: 6px;
+}
+.slide hr {
+  opacity: 30%;
+}
+.slide .box-content {
+  margin-top: 1rem;
+}
+
+.slide .box-content .box-name > h3 {
+  font-family: Ubuntu-Boldltalic;
+  margin: 0.5rem 0;
+}
+.slide .box-content .rating > img {
+  margin: 0.1rem 0.3rem;
+}
+
+.slide .slide-box .prize > h3 {
+  color: var(--danger);
+  font-family: Ubuntu-light;
+}
+
+.slide .box-content .box-cart > img {
+  color: var(--white);
+  background-color: var(--primary);
+  margin: 1rem 0rem;
+  padding: 0.6rem 0.6rem;
+}
+.sm-box {
+  padding: 1.2rem 0rem;
+}
+.slide .box-content .box-cart > a {
+  color: var(--dark);
+  font-size: 0.8rem;
+  font-family: Ubuntu-Bold;
+  background-color: var(--primary);
+  padding: 0.5rem 0.6rem;
+  color: white;
+}
+
+/*  About  */
+.about-section .right {
+  margin-top: 2.4rem;
+}
+.about-section .right .bold-para {
+  padding: 0.5rem 0.4rem;
+  margin: 1.2rem 0rem;
+}
+.about-section .right .bold-para > h4 {
+  font-family: Ubuntu-Medium;
+}
+.about-section .right .para {
+  padding: 0.5rem 0.4rem;
+  margin: 0.3rem 0rem;
+}
+.about-section .right .para > p {
+  font-family: Ubuntu-light;
+}

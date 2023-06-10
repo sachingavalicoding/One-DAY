@@ -1,0 +1,141 @@
+/*  Google fonts  fonts  */
+
+@font-face {
+  font-family: Ubuntu-light;
+  src: url(../fonts/Ubuntu-Light.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url(../fonts/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-Boldltalic;
+  src: url(../fonts//Ubuntu-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-ltalic;
+  src: url(../fonts/Ubuntu-Italic.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-lightltalic;
+  src: url(../fonts/Ubuntu-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-Medium;
+  src: url(../fonts/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-Mediumltalic;
+  src: url(../fonts/Ubuntu-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+/*  Root Elements  */
+
+:root {
+  --primary: #eebf00;
+  --danger: #ee4545;
+  --light: #f0f0f0;
+  --pink:rgb(255, 36, 229);
+  --footer: #2d333f;
+  --secoundary: rgb(248, 235, 235);
+  --dark:rgb(12, 11, 11);
+  --white:rgb(255, 255, 255);
+}
+
+/*  Classes to use  */
+.flex {
+  display: flex;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-left{
+  text-align-last: left;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+.flex-direaction-column{
+ flex-direction: column;
+}
+/*  buttons  */
+
+
+.btn{
+  padding:0.6rem 1.2rem;
+  margin: 0.3rem 0.4rem;
+  border:1px solid transparent;
+  color:black;
+  font-family: Ubuntu-Medium;
+  border-radius: 6px;
+}
+
+.btn-primary{
+  background-color: var(--primary);
+  color:var(--white);
+  border-radius: 6px;
+}
+.btn-primary:hover{
+  background-color: var(--white);
+  color:var(--primary);
+  border:1px solid black;
+  transition: all 0.4 ease;
+}
+.btn-dark{
+  background-color: var(--dark);
+  color:var(--white);
+  border-radius: 6px;
+}
+.btn-dark:hover{
+  background-color: var(--white);
+  color:var(--dark);
+  border:1px solid black;
+  transition: all 0.4 ease;
+}
+
+/*  sections titles  */
+section{
+  padding:2rem 0;
+}
+
+.section-title{
+  position: relative;
+  font-size: 2rem;
+
+}
+.section-title >h2{
+  color:var(--footer);
+  font-family: Ubuntu-lightltalic;
+}
+.section-title >h2::before{
+  position: absolute;
+  content: '';
+  display:block;
+  height: 30px;
+  width:100%;
+  background-image: url('../icons/hr.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  bottom: -30px;
+}
