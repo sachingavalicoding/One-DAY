@@ -1,0 +1,32 @@
+.anibox{
+    border: none;
+    animation-name: box;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes box{
+    0%{
+        background-color: aqua;
+    }
+    25%{
+        background-color: red;
+    }
+    50%{
+        background-color: blueviolet;
+    }
+    75%{
+        background-color: orange;
+    }
+    100%{
+        background-color: turquoise;
+    }
+}
+
+.btn{
+    padding: 10px 30px;
+    color: rgb(12, 12, 12);
+    background-color: greenyellow;
+    border-radius: 10px;
+   margin-left: 450px;                                                                                                                                                                                             
+}

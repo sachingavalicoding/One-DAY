@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body >
+  
+    <script>
+        let h1 = document.querySelector('h1');
+        let body = document.querySelector('body');
+        let box = document.createElement('div');
+        let para = document.createElement('p');
+        let btn = document.createElement('button');
+        let btn1 = document.createElement('button');
+       /*  console.log(h1);
+        h1.innerText = "Gavali "; 
+        h1.innerHTML = '<div> Hello  Gavali </div> ';
+        */
+
+        /*  Styles */
+       /*  h1.style.color = 'red';
+        h1.style.backgroundColor = 'black';
+        body.style.backgroundColor = 'blue';
+        body.style.height = '100vh';
+        body.style.display = 'flex';
+        body.style.alignItems = 'center';
+        body.style.justifyContent = 'center';
+        h1.style.padding = '10px 30px';
+
+        h1.addEventListener('',()=>{
+           body.style.backgroundColor = 'green';
+           h1.style.fontSize = '50px';
+          // body.classList.add('anibox');
+          body.classList.toggle('anibox'); 
+        });
+        */
+        body.style.backgroundColor = 'blue';
+        body.style.height = '100vh';
+        body.style.display = 'flex';
+        body.style.alignItems = 'center';
+        body.style.justifyContent = 'center';
+        box.style.width = '80vw';
+        box.style.height = '80vh';
+        box.style.backgroundColor = 'red';
+        para.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, debitis natus! Pariatur dolorem, corporis nesciunt atque eum hic necessitatibus iure fuga veniam. Adipisci modi quisquam laborum delectus eaque fugiat. Dolorum dolorem autem quibusdam voluptate eligendi, laborum asperiores officia deleniti voluptates doloremque ab delectus illum illo alias laboriosam deserunt aspernatur aliquam obcaecati eius aut quis! Nesciunt corrupti dolores beatae aliquam temporibus, minima odit possimus unde eaque totam ex nulla voluptatibus provident veritatis natus id animi perferendis quaerat molestiae, nihil doloribus optio sed suscipit tenetur? Sint qui beatae reprehenderit consequatur in ea modi autem quaerat, commodi deleniti, eveniet iure similique sunt molestiae.';
+        para.style.color = 'black';
+        para.style.fontSize = '30px';
+        para.style.fontFamily = 'cursive';
+        box.style.padding = '20px';
+        btn.innerText='click';
+        btn1.innerText='click';
+        body.appendChild(box);
+        box.appendChild(para);
+        box.appendChild(btn);        
+        box.appendChild(btn1);        
+        btn.classList.add('btn');
+        btn1.classList.add('btn');
+    </script>
+</body>
+</html>
