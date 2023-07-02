@@ -1,0 +1,38 @@
+*{
+    color: white;
+}
+li{
+    font-size: 2rem;
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+
+}
+ul{
+    display: flex;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    width: 80%;
+    height: 80%;
+    background-color: rgb(10, 48, 36);
+}
+button{
+    padding: 10px 30px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+.hide{
+    display: none;
+}
